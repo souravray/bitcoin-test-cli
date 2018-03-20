@@ -9,8 +9,8 @@
     "testing"
   ],
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
+  "bin": {
+    "btc-test": "./index.js"
   },
   "license": "GPL-3.0",
   "dependencies": {
